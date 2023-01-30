@@ -1,0 +1,41 @@
+.card__items{
+    display: flex;
+}
+.card__info{
+   text-align: center;
+   margin-top: 20px;
+   margin-left: 30px;
+}
+
+.card__name{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.card__item__price{
+    margin-bottom: 10px;
+    /* font-weight: 300;
+    font-size: var(--font-size-small); */
+}
+.card__imgdiv{
+    width: 240px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.flower__img{
+    transition: 0.3s ease-in-out;
+    display: block;
+    
+    margin-right: 20px;
+
+}
+.flower__img:hover{
+ 
+    transform: scale(1.2);
+    
+}
+@media screen and (max-width: 1120px) {
+    .card__items{
+        display: block;
+    }
+}

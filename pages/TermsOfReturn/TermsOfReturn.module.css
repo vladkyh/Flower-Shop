@@ -1,0 +1,20 @@
+.privacy{
+    max-width: 1160px;
+    font-size: var(--font-family-main);
+    margin-top: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+   
+}
+.privacy_h{
+    font-size: var(--font-size-big);
+    font-weight: 700;
+    margin: 25px 0 25px 0;
+
+}
+.privacy_p{
+font-size: var(--font-family-small);
+font-weight: 300;
+line-height: 1.65;
+margin: 25px 0 25px 0;
+}

@@ -1,0 +1,97 @@
+.right {
+    position: absolute;
+    right: -35px;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    border-top: 2px solid #000000;
+    border-right: 2px solid #000000;
+cursor: pointer;
+    transform: rotate(45deg);
+    transition: 0.3s ease-in-out;
+} 
+.left{
+    position: absolute;
+    left: -35px;
+    top: 50%;
+  width: 40px;
+    height: 40px;
+    border-top: 2px solid #000000;
+    border-right: 2px solid #000000;
+  cursor: pointer;
+    transform: rotate(-135deg);
+    transition: 0.3s ease-in-out;
+    opacity: 1;
+}
+.carousel{
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+}
+.carousel__content{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.carousel__img{
+    transition: 0.2s ease-in-out;
+    transition-duration: 1000ms;
+    max-width: 94%;
+    max-height: 100%;
+    object-fit:fill;
+}
+
+.goodbay{
+    transition: 0.2s ease-in-out;
+    opacity: 0;
+}
+.right:hover, .left:hover{
+    transition: 0.3s ease-in-out;
+    width: 50px;
+    height: 50px;
+    
+}
+@media screen and (max-width: 990px) {
+    .right{
+        right: 10px;
+        border-top: 2px solid #06a801;
+    border-right: 2px solid #06a801;
+        z-index: 1;
+    }
+    .left{
+        left: 10px;
+        border-top: 2px solid #06a801;
+    border-right: 2px solid #06a801;
+        z-index: 1;
+    }
+    .carousel__img{
+        transition: 0.2s ease-in-out;
+        transition-duration: 1000ms;
+        max-width: 100%;
+        max-height: 130vh;
+        object-fit:fill;
+    }
+}
+
+@media screen and (max-width: 548px) {
+    .right{
+        right: 10px;
+        border-top: 2px solid #06a801;
+    border-right: 2px solid #06a801;
+        z-index: 1;
+    }
+    .left{
+        left: 10px;
+        border-top: 2px solid #06a801;
+    border-right: 2px solid #06a801;
+        z-index: 1;
+    }
+    .carousel__img{
+        transition: 0.2s ease-in-out;
+        transition-duration: 1000ms;
+        max-width: 100%;
+        max-height: 80vh;
+        object-fit:fill;
+    }
+}

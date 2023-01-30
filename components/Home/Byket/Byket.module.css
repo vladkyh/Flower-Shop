@@ -1,0 +1,25 @@
+.byket{
+    text-align: center;
+    margin-top: 70px;
+}
+.byket__title{
+    font-size: var(--font-size-very-big);
+margin-bottom: 20px;
+}
+.byket__text{
+    font-weight: 300;
+    font-size: var(--font-size-medium);
+    margin-bottom: 50px;
+}
+.byket__button{
+    height: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: var(--color-main);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: var(--font-size-medium);
+    cursor: pointer;
+    font-weight: 500;
+}

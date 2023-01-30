@@ -1,0 +1,35 @@
+.id{
+    display: flex;
+    justify-content: center;
+}
+.id__info{
+    margin-left: 25px;
+}
+.id__name{
+    display: block;
+    
+    font-weight: 700;
+    font-size: var(--font-size-big);
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.id__count{
+    font-size: var(--font-size-medium);
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.id__desr{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.arrow {
+    width: 30px;
+    height: 30px;
+    border-top: 10px solid #000000;
+    border-right: 10px solid #000000;
+    margin-right: 60px;
+    transform: rotate(-135deg);
+    margin-left: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+}

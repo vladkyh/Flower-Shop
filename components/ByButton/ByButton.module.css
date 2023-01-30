@@ -1,0 +1,44 @@
+
+.flower__bybutton{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    height: 45px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: var( --color-main);
+    color: white;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    border: 1px solid inherit;
+}
+.flower__bybutton:active, .flower__bybutton__plusminus:active{
+    transform: translate(0px, 3px);
+}
+.flower__bybutton:hover, .flower__bybutton__plusminus:hover{
+    color: var(--color-main);
+    background-color: white;
+    border: 1px solid var(--color-main);
+}
+.flower__bybutton__plusminus{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    height: 35px;
+    padding-left: 13px;
+    padding-right: 13px;
+    background-color: var( --color-main);
+    color: white;
+    border: none;
+    font-size: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: 700;
+    border: 1px solid var(--color-main);
+}
+.flower__count{
+    width: 17.8px;
+    height: 17px;
+    margin: 0px 5px 0px 5px;
+}

@@ -1,0 +1,84 @@
+.flower__li{
+    position: relative;
+    display: block;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    font-size: var(--font-family-main);
+}
+.flower__card{
+    display: block;
+}
+.flower__name{
+    display: block;
+    
+    font-weight: 700;
+    font-size: var(--font-size-medium);
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+.flower__descr{
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.55;
+}
+.flower__price{
+    font-size: var(--font-size-small);
+    font-weight: 400;
+}
+.flower__bybutton{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    height: 45px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: var( --color-main);
+    color: white;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    border: 1px solid inherit;
+}
+.flower__bybutton:active, .flower__bybutton__plusminus:active{
+    transform: translate(0px, 3px);
+}
+.flower__bybutton:hover, .flower__bybutton__plusminus:hover{
+    color: var(--color-main);
+    background-color: white;
+    border: 1px solid var(--color-main);
+}
+.flower__bybutton__plusminus{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    height: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: var( --color-main);
+    color: white;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    border: 1px solid var(--color-main);
+}
+.flower__count{
+    width: 17.8px;
+    height: 17px;
+}
+.flower__imgdiv{
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    
+}
+.flower__img{
+    transition: 0.3s ease-in-out;
+}
+.flower__img:hover{
+ 
+    transform: scale(1.2);
+    
+}

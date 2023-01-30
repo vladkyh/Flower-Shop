@@ -1,0 +1,10 @@
+.why{
+    max-width: 260px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    text-align:center;
+}
+.why__text{
+    font-size: 16px;
+    line-height: 1.55;
+}

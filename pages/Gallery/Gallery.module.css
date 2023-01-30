@@ -1,0 +1,12 @@
+.gallery{
+   
+}
+.gallery__ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery__li{
+    margin-right: 30px;
+    margin-bottom: 30px;
+}

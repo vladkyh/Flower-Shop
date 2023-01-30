@@ -1,0 +1,90 @@
+.hero{
+    /* padding-bottom: var(--block-padding); */
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 70px;
+}
+
+.hero__title{
+     color: white;
+    font-size: var(--font-size-extra);
+    font-family: var(--font-family-submain);
+    letter-spacing: var(--letter-spacing-main);
+    
+    padding-top: 17vh;
+    
+}
+.hero__strong{
+    font-size: var(--font-size-medium);
+    letter-spacing: var(--letter-spacing-large);
+    color: white;
+}
+.hero__p{
+    letter-spacing: var(--letter-spacing-large);
+    font-size: var(--font-size-medium);
+    margin-bottom: var( --content-margin-small);
+    color: white;
+}
+.button__sell, .button__kat{
+    height: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: var( --color-main);
+    color: white;
+    border: none;
+    font-size: var(--font-size-medium);
+    box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, .73);
+    cursor: pointer;
+    font-weight: 500;
+}
+.button__sell:hover, .button__kat:hover{
+    color: var(--color-main);
+    background-color: white;
+}
+.button__sell{
+    margin-left: 30px;
+       
+}
+.hero__buttons{
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.background__black{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.48);
+}
+.video{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    object-fit: cover;
+    left: 0;
+    
+    
+    
+}
+@media screen and (max-width: 618px) {
+    .button__sell{
+        margin-top: 20px;
+        margin-left: 0;
+        padding-left: 30px;
+    padding-right: 30px;
+    
+    }
+    .hero__title{
+     
+        font-size: 50px;
+        font-family: var(--font-family-submain);
+        letter-spacing: var(--letter-spacing-main);
+    }
+    
+}

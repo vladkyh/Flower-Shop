@@ -1,0 +1,25 @@
+.florist{
+    text-align: center;
+    margin-top: 70px;
+}
+.florist__title{
+    font-size: var(--font-size-very-big);
+margin-bottom: 20px;
+}
+.florist__text{
+    font-weight: 300;
+    font-size: var(--font-size-medium);
+    margin-bottom: 50px;
+}
+.florist__button{
+    height: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: rgb(67,216,84);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: var(--font-size-medium);
+    cursor: pointer;
+    font-weight: 500;
+}

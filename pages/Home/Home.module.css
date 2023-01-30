@@ -1,0 +1,14 @@
+.homewhy{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.homewhy__title{
+    font-size: var(--font-size-very-big);
+    text-align: center;
+}
+/* .carousel */
+.carousel{
+    display: flex;
+}

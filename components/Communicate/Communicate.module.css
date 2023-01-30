@@ -1,0 +1,100 @@
+.communicate{
+    position: fixed;
+    
+    bottom: 0;
+    right: 0;
+    margin: 0 10px 10px 0;
+}
+.none{
+    opacity: 0;
+    transition: .4s;
+    position: absolute;
+    bottom: 31px;
+    right: 92px;
+    background-color: #2d2c2c;
+    padding: 8px;
+    color: white;
+}
+.call{
+    position: absolute;
+    bottom: 21px;
+    right: 92px;
+    background-color: #292929;
+    opacity: .85;
+    padding: 9px 13px;
+    color: white;
+    transition: .4s;
+    
+}
+.call::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: solid transparent;
+    border-width: 10px;
+    top: 50%;
+    right: -20px;
+    transform: translateY(-50%);
+    border-left-color: #292929;
+    
+}
+.message{
+    position: absolute;
+    z-index: 2;
+    width: 80px;
+    height: 80px;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+    box-shadow: 0px 0px 3px 1px rgb(0 0 0 / 73%);
+    border-radius: 50%;
+   
+    
+}
+.phone{
+    position: absolute;
+    bottom: 3px;
+    right: 13px;
+ width: 50px;
+
+ height: 50px;
+ transition: .6s;
+ cursor: pointer;
+
+}
+.whatsapp{
+    position: absolute;
+   
+    bottom: 3px;
+    right: 13px;
+     width: 50px;
+     height: 50px;
+     transition: .6s;
+     cursor: pointer;
+
+
+}
+.viber{
+    position: absolute;
+    bottom: 3px;
+    right: 13px;
+     width: 50px;
+     height: 50px;
+     transition: .6s;
+     cursor: pointer;
+}
+.active__viber{
+    bottom: 154px;
+    
+}
+.active__whats{
+    bottom: 93px;
+    
+}
+.active__phone{
+    bottom: 214px;
+}
+
+
+/* анимация */

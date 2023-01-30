@@ -1,0 +1,103 @@
+:root{
+  /* container */
+  --container-medium: 1160px;
+  /* font */
+  --font-family-main:  'Roboto',Arial,sans-serif;
+  --font-family-submain: Georgia;
+  --font-size-extra: 72px;
+  --font-size-very-big: 36px;
+  --font-size-big: 24px;
+  --font-size-medium: 18px;
+  --font-size-small:  14px;
+  
+  /* colors */
+  --color-main: rgb(111, 135, 117);
+  
+  --color-opasity-main: rgb(111, 135, 117,.8);
+  --color-well-opasity-main: rgba(111, 135, 117, 0.22);
+  --color-yarche-main: rgb(148, 181, 156);
+  --color-yarche-opasity-main: rgb(148, 181, 156, .7);
+  --color-link-active: #6f8775;
+  --box-shadow-button: 0px 0px 6px 3px rgba(0, 0, 0, .73);
+  --box-shadow-card: 0px 0px 10px 2px rgba(0, 0, 0, .13);
+  /* padding margin*/
+  --block-padding: 140px;
+  --content-margin-small: 55px;
+  /* text  */
+  --letter-spacing-main: 1px;
+  --letter-spacing-large: 1.55px;
+  /* text shadow */
+  --text-shadow-main: 
+		-0   -1px 1px #000000,
+		 0   -1px 1px #000000,
+		-0    1px 1px #000000,
+		 0    1px 1px #000000,
+		-1px -0   1px #000000,
+		 1px -0   1px #000000,
+		-1px  0   1px #000000,
+		 1px  0   1px #000000,
+		-1px -1px 1px #000000,
+		 1px -1px 1px #000000,
+		-1px  1px 1px #000000,
+		 1px  1px 1px #000000,
+		-1px -1px 1px #000000,
+		 1px -1px 1px #000000,
+		-1px  1px 1px #000000,
+		 1px  1px 1px #000000;
+}
+
+html,
+body,
+#__next {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+
+html,
+body{
+  height: 100%;
+  font-family: var(--font-family-main);
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+video{}
+* {
+  box-sizing: border-box;
+}
+
+.wrapper{
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 1200px;
+  padding: 30px 0;
+  
+}
+.main{
+  width: 100%;
+  
+}
+.container__medium{
+
+  
+  display: flex;
+  justify-content: center;
+  
+}
+.display__none{
+  display: none;
+}
+.myhref{
+  padding-bottom: 30px;
+}
